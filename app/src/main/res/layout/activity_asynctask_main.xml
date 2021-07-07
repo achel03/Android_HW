@@ -26,4 +26,19 @@
         tools:layout_editor_absoluteX="47dp"
         tools:layout_editor_absoluteY="314dp"
         tools:ignore="OnClick" />
+
+    <ProgressBar
+        android:id="@+id/pgbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
 </LinearLayout>
