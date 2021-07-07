@@ -1,5 +1,5 @@
-# Android_HW
-**2021_1_하계_나의 첫 안드로이드 앱**
+**Android_HW**
+# 2021_1_하계_나의 첫 안드로이드 앱
 
 ## 7-1 asynctask
 Process 1                  |Process 2                  |Process 3    
