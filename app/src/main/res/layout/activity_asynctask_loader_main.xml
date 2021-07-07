@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AsynctaskLoader_main">
+
+    <TextView
+        android:id="@+id/loadtv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter a book name to find out who wrote the book." />
+
+    <EditText
+        android:id="@+id/loadet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter a Book Title"
+        />
+
+    <Button
+        android:id="@+id/loadbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="searchBooks"
+        android:text="Search Books"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/loadtv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/loadtv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="" />
+</LinearLayout>
