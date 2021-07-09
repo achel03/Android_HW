@@ -15,3 +15,8 @@ Process 1                  |Process 2                  |Process 3
 Process 1                  |Process 2                  |Process 3    
 :-------------------------:|:-------------------------:|:-------------------------:
 ![8_1process(1)](./img/8_1(1).png)| ![8_1process(1)](./img/8_1(2).png) | ![8_1process(1)](./img/8_1(3).png)
+
+## 7-3 Notifications
+Process 1     
+:-------------------------:
+![8_3process(1)](./img/8_3(1).png)|
