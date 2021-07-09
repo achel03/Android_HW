@@ -21,7 +21,7 @@ Process 1                  |Process 2                  |
 :-------------------------:|:-------------------------:|
 ![8_3process(1)](./img/8_3(1).png)|![8_3process(1)](./img/8_3(2).png)
 
-## 9-2 App settings
+## 9-1 Shared Prefs
 Process 1                  |Process 2                  |Process 3    
 :-------------------------:|:-------------------------:|:-------------------------:
-![9_2process(1)](./img/9_2(1).png)|![9_2process(1)](./img/9_2(2).png)| ![9_2process(1)](./img/9_2(3).png)
+![9_1process(1)](./img/9_1(1).png)|![9_1process(2)](./img/9_1(2).png)| ![9_1process(3)](./img/9_1(3).png)
