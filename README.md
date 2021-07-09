@@ -15,3 +15,8 @@ Process 1                  |Process 2                  |Process 3
 Process 1                  |Process 2                  |Process 3    
 :-------------------------:|:-------------------------:|:-------------------------:
 ![8_1process(1)](./img/8_1(1).png)| ![8_1process(1)](./img/8_1(2).png) | ![8_1process(1)](./img/8_1(3).png)
+
+## 8-3 Scheduler
+Process 1                  |Process 2                  |
+:-------------------------:|:-------------------------:|
+![8_3process(1)](./img/8_3(1).png)|![8_3process(1)](./img/8_3(2).png)
