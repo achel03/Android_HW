@@ -12,17 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_onlineHW">
-        <activity android:name=".NotificationsMain">
+        <activity android:name=".JobschedulerMain" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AsynctaskLoader_main">
+        <activity android:name=".NotificationsMain">
 
         </activity>
-        <activity android:name=".AsynctaskMain"></activity>
+        <activity android:name=".AsynctaskLoader_main" />
+        <activity android:name=".AsynctaskMain" />
+        <service
+            android:name=".Jobservice"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
     </application>
 
 </manifest>
