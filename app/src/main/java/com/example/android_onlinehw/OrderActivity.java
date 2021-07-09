@@ -18,7 +18,7 @@ public class OrderActivity extends AppCompatActivity {
 
         // Get the intent and its data.
         Intent intent = getIntent();
-        String message = intent.getStringExtra(settingsMain.EXTRA_MESSAGE);
+        String message = intent.getStringExtra(SettingsMain.EXTRA_MESSAGE);
         TextView textView = findViewById(R.id.order_textview);
         textView.setText(message);
     }

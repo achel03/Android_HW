@@ -15,7 +15,7 @@ import android.widget.Toast;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
-public class settingsMain extends AppCompatActivity {
+public class SettingsMain extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE =
             "com.example.android.droidcafeinput.extra.MESSAGE";
@@ -34,7 +34,7 @@ public class settingsMain extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(settingsMain.this,
+                Intent intent = new Intent(SettingsMain.this,
                         OrderActivity.class);
                 intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
                 startActivity(intent);
@@ -85,7 +85,7 @@ public class settingsMain extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_order:
-                Intent intent = new Intent(settingsMain.this,
+                Intent intent = new Intent(SettingsMain.this,
                         OrderActivity.class);
                 intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
                 startActivity(intent);

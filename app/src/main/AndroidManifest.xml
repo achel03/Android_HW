@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_onlineHW">
+        <activity android:name=".SettingsMain"></activity>
         <activity android:name=".SharedPrefsMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,28 +20,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".settingsMain">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-        </activity>
         <activity
             android:name=".OrderActivity"
             android:label="@string/title_activity_order"
-            android:parentActivityName=".settingsMain">
+            android:parentActivityName=".SettingsMain">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".settingsMain" />
+                android:value=".SettingsMain" />
         </activity>
         <activity
             android:name=".SettingSub"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".settingsMain">
+            android:parentActivityName=".SettingsMain">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".settingsMain" />
+                android:value=".SettingsMain" />
         </activity>
         <activity android:name=".JobschedulerMain" />
         <activity android:name=".NotificationsMain" />

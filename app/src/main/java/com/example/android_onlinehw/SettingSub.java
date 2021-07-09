@@ -198,7 +198,7 @@ public class SettingSub extends AppCompatPreferenceActivity {
                         .getBoolean(R.bool.isTablet);
                 if (tabletSize) {
                     startActivity(new Intent(getActivity(),
-                            settingsMain.class));
+                            SettingsMain.class));
                 } else {
                     startActivity(new Intent(getActivity(),
                             SettingSub.class));
@@ -239,7 +239,7 @@ public class SettingSub extends AppCompatPreferenceActivity {
                         .getBoolean(R.bool.isTablet);
                 if (tabletSize) {
                     startActivity(new Intent(getActivity(),
-                            settingsMain.class));
+                            SettingsMain.class));
                 } else {
                     startActivity(new Intent(getActivity(),
                             SettingSub.class));
@@ -280,7 +280,7 @@ public class SettingSub extends AppCompatPreferenceActivity {
                         .getBoolean(R.bool.isTablet);
                 if (tabletSize) {
                     startActivity(new Intent(getActivity(),
-                            settingsMain.class));
+                            SettingsMain.class));
                 } else {
                     startActivity(new Intent(getActivity(),
                             SettingSub.class));
